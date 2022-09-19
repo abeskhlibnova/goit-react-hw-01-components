@@ -16,7 +16,8 @@ export const StatisticWrapperItem = styled.li`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-shadow: 1px 1px 5px #ffffff;
     border-top: 1px solid rgb(0, 0, 0, 0.5);
     &:not(:last-child) {
@@ -25,9 +26,9 @@ export const StatisticWrapperItem = styled.li`
 `;
 
 export const StatisticWrapperLabel = styled.span`
-    font-size: 30px;
+    font-size: 24px;
 `;
 export const StatisticWrapperPercentage = styled.span`
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 700;
 `;
