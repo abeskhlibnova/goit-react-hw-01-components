@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 
 export const FriendListItem = styled.ul`
-    background-color: blueviolet;
+    list-style: none;
+    margin-bottom: 30px;
 `;
