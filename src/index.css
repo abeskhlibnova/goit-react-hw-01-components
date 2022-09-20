@@ -36,3 +36,6 @@ img {
   height: auto;
 }
 
+table {
+  border-collapse: collapse;
+}

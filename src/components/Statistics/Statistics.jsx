@@ -2,7 +2,7 @@ import { StatisticCard } from './StatisticCards';
 import { StatisticTitle } from './StatisticTitle';
 import { Statisctics } from './Statistics.styled';
 
-export const Statistics = ({ title, stats }) => {
+const Statistics = ({ title, stats }) => {
     return (
         <Statisctics>
             <StatisticTitle title={title} />
@@ -10,3 +10,5 @@ export const Statistics = ({ title, stats }) => {
         </Statisctics>
     );
 };
+
+export default Statistics;

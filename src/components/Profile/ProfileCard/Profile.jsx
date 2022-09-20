@@ -3,7 +3,7 @@ import { ProfileDescription } from '../ProfileDescription/ProfileDescription';
 import { Stats } from '../Stats/Stats';
 import { ProfileCard } from './Profile.styled';
 
-export const Profile = ({ userInfo }) => {
+const Profile = ({ userInfo }) => {
     return (
         <ProfileCard>
             <ProfileDescription
@@ -22,5 +22,7 @@ export const Profile = ({ userInfo }) => {
 };
 
 Profile.propTypes = {
-    userInfo: PropTypes.object,
+    userInfo: PropTypes.object.isRequired,
 };
+
+export default Profile;

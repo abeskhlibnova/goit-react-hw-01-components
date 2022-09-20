@@ -2,7 +2,7 @@ import { TransactionsHistoryBoard } from './TransactionsHistory.styled';
 import { TransactionsHistoryHeader } from './TransactionsHistoryHeader';
 import { TransactionsHistoryBody } from './TransactionsHistoryBody';
 
-export const TransactionsHistory = ({ items }) => {
+const TransactionsHistory = ({ items }) => {
     return (
         <TransactionsHistoryBoard>
             <TransactionsHistoryHeader />
@@ -10,3 +10,5 @@ export const TransactionsHistory = ({ items }) => {
         </TransactionsHistoryBoard>
     );
 };
+
+export default TransactionsHistory;

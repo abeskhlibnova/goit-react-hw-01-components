@@ -9,13 +9,14 @@ export const TransactionsTHead = styled.thead`
         font-weight: bold;
         color: #ffffff;
         border-left: 2px solid #d0e4f5;
-    }
-    th:first-child {
-        border-left: none;
+
+        &:first-of-type {
+            border-left: none;
+        }
     }
 `;
 export const TransactionsTR = styled.tr`
-    &:nth-child(even) {
+    &:nth-of-type(even) {
         background: #d0e4f5;
     }
 `;

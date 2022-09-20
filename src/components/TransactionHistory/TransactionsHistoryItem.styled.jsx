@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const TransactionsItemTR = styled.tr`
-    &:nth-child(even) {
+    &:nth-of-type(even) {
         background: #d0e4f5;
     }
 `;
