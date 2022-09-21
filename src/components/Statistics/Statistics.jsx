@@ -5,7 +5,7 @@ import { Statisctics } from './Statistics.styled';
 const Statistics = ({ title, stats }) => {
     return (
         <Statisctics>
-            <StatisticTitle title={title} />
+            {title && <StatisticTitle title={title} />}
             <StatisticCard stats={stats} />
         </Statisctics>
     );
